@@ -5,9 +5,10 @@ This help you can create a quick AngularJS backend with ng-admin for Laravel
 #How to ?
 - Require Laravel API Handler at https://github.com/marcelgwerder/laravel-api-handler
 - Create a RESTful Controller with Laravel http://laravel.com/docs/4.2/controllers#restful-resource-controllers
-Ex: 'php artisan controller:make UserController'
+
+Ex: `php artisan controller:make UserController`
 - Place this function in the class
-- 'private function passParams($table_name){
+- `private function passParams($table_name){
         //ng-admin ?_sort=name&_sortDir=DESC&page=1&per_page=30
         //API _fields, _with, _sort, _limit, _offset
 
@@ -48,4 +49,4 @@ Ex: 'php artisan controller:make UserController'
         }
         $params ['_config'] = 'meta-filter-count';
         return $params;
-    }'
+    }`
