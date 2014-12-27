@@ -8,7 +8,7 @@ This help you can create a quick AngularJS backend with ng-admin for Laravel
 
 Ex: `php artisan controller:make UserController`
 - Place this function in the class
-- `private function passParams($table_name){
+`private function passParams($table_name){
         //ng-admin ?_sort=name&_sortDir=DESC&page=1&per_page=30
         //API _fields, _with, _sort, _limit, _offset
 
