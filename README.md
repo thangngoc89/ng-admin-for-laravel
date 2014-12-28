@@ -12,7 +12,7 @@ Ex: `php artisan controller:make UserController`
 - extends `APIController` class instead of `BaseController` in your controller/
 
 Here is an example of User API
-
+````
 <?php
 
 class UserV2Controller extends \APIController {
@@ -51,5 +51,5 @@ class UserV2Controller extends \APIController {
         }
 	}
 }
-
+````
 Finally, using [ng-admin](https://github.com/marmelab/ng-admin) to call index and you will see the magic
